@@ -1,0 +1,33 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0%;
+  margin: 0%;
+  
+
+
+}  
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.radial{
+  background: hsla(0, 0%, 100%, 1);
+
+background: radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(205, 62%, 88%, 1) 99%, hsla(205, 84%, 36%, 1) 100%);
+
+background: -moz-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(205, 62%, 88%, 1) 99%, hsla(205, 84%, 36%, 1) 100%);
+
+background: -webkit-radial-gradient(circle, hsla(0, 0%, 100%, 1) 0%, hsla(205, 62%, 88%, 1) 99%, hsla(205, 84%, 36%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#CCE3F3", GradientType=1 );
+}
